@@ -32,12 +32,15 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="wOd-P8-zRG" firstAttribute="centerY" secondItem="NOg-eh-jZh" secondAttribute="centerY" id="Nov-zM-wxT"/>
-                                    <constraint firstItem="wOd-P8-zRG" firstAttribute="top" secondItem="NOg-eh-jZh" secondAttribute="top" constant="181" id="yjF-aG-wTx"/>
+                                    <constraint firstItem="wOd-P8-zRG" firstAttribute="centerX" secondItem="tQ1-VE-Jyj" secondAttribute="centerX" id="QrP-n8-Axm"/>
+                                    <constraint firstItem="1Sw-AZ-mQx" firstAttribute="centerX" secondItem="wOd-P8-zRG" secondAttribute="centerX" id="dKd-h6-2Zw"/>
+                                    <constraint firstItem="wOd-P8-zRG" firstAttribute="width" secondItem="1Sw-AZ-mQx" secondAttribute="height" multiplier="1:1" id="ft8-nB-pYX"/>
+                                    <constraint firstItem="1Sw-AZ-mQx" firstAttribute="width" secondItem="wOd-P8-zRG" secondAttribute="height" multiplier="1:1" id="hRI-eH-931"/>
+                                    <constraint firstItem="wOd-P8-zRG" firstAttribute="width" secondItem="tQ1-VE-Jyj" secondAttribute="height" multiplier="1:1" id="o4E-Ih-yFb"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0I-2s-Go0">
-                                <rect key="frame" x="149" y="763" width="119" height="46"/>
+                                <rect key="frame" x="149" y="763" width="91" height="46"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="hBl-r3-FPw"/>
@@ -56,8 +59,7 @@
                             <constraint firstItem="B0I-2s-Go0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="BBe-kW-YKU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B0I-2s-Go0" secondAttribute="bottom" constant="53" id="I3F-O5-YV9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NOg-eh-jZh" secondAttribute="trailing" constant="146" id="Ke7-RY-Sel"/>
-                            <constraint firstAttribute="bottom" secondItem="NOg-eh-jZh" secondAttribute="bottom" constant="277" id="nxj-Ew-JKt"/>
-                            <constraint firstItem="NOg-eh-jZh" firstAttribute="trailing" secondItem="B0I-2s-Go0" secondAttribute="trailing" id="tYI-9p-r3z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B0I-2s-Go0" secondAttribute="trailing" constant="174" id="XgE-zM-uOO"/>
                             <constraint firstItem="NOg-eh-jZh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="yrE-lW-jSn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
